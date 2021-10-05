@@ -1,3 +1,13 @@
+"""
+======================================================
+Member : 안상혁, 강승아
+======================================================
+Method : 
+    Single File : parsing metadata and find forgery element
+    Multi File  : parsing metadata and find forgery element & find difference with normal file 
+                  input : suspected file  normal file
+
+"""
 import struct
 from sys import byteorder
 import jellyfish
